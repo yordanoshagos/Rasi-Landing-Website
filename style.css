@@ -1,0 +1,984 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins_l;
+    src: url(fonts/Poppins/Poppins-Light.ttf);
+}
+body{
+    font-family: poppins;
+}
+
+.left-rasi-offers p{
+    font-size: 110%;
+    border: none;
+    width: 96.9%;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 161, 101);
+
+}
+.left-rasi-offers img{
+    width: 99.5%;
+    height: 99%;
+    margin-top: -1%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.rasi-prints{
+    display: flex;
+    color: white;
+    gap: 5%;
+}
+.back{
+    position: absolute;
+    color: gray;
+    background: rgba(0, 0, 0, 0.5);
+    width: 98%;
+    height: 99%;
+    margin-top: -1%;
+    z-index: -1;
+}
+.rasi-prints h1{
+    margin-left: 3%;
+    font-size: 210%;
+    margin-top: -0.3%;
+}
+#home{
+    margin-left: 12%;
+}
+.rasi-prints a{
+    font-size: 140%;
+  text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.rasi-prints a:hover {
+    text-decoration: underline;
+    color: rgb(178, 241, 215);
+}
+.rasi-prints svg{
+    margin-left: 15%;
+    cursor: pointer;
+}
+.elevate{
+    text-align: center;
+    font-size: 290%;
+    color: white;
+    margin-bottom: 10%;
+}
+.elevate p{
+    font-size: 60%;
+    margin-bottom: 6%;
+}
+
+.elevate button{
+    font-family: poppins;
+    font-size: 55%;
+    padding: 1.4% 4%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(188, 175, 175, 0.668);
+cursor: pointer;
+}
+.elevate button:hover{
+    color: black;
+    background-color: rgb(165, 161, 161);
+}
+.screen-print{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    width: 98.8%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 350%;
+    font-family: poppins_l;
+    color: rgb(42, 41, 41);
+
+}
+.rasi-screen-print{
+    display: flex;
+    gap: 10%;
+    margin-bottom: 10%;
+}
+.rasi-screen-print img {
+    border-radius: 35px;
+    width: 33%;
+    height: 10%;
+    margin-left: 1%;
+    box-shadow: 0px 15px 18px -5px rgb(55, 53, 53); 
+}
+
+.rasi-timeless{
+    font-size: 145%;
+}
+.rasi-timeless h2{
+    font-size: 260%;
+}
+#know{
+    margin-left: 3%;
+    font-family: poppins;
+    font-size: 115%;
+    padding: 3.5% 8%;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(90, 161, 101);
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+#know:hover{
+    background-color: rgb(218, 240, 231);
+    color: black;
+    border: 1px solid;
+}
+
+#contact{
+    font-family: poppins;
+    font-size: 115%;
+    padding: 3.5% 8%;
+    border-radius: 100px;
+    border: 1px solid;
+    color: black;
+    margin-left: 10%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+#contact:hover{
+    background-color: rgb(90, 161, 101);
+    color: white;
+    border: none;
+}
+
+.offers{
+    display: flex;
+    gap: 9.5%;
+    border: none;
+    padding: 4.5% 2%;
+    background-color: rgb(207, 239, 221);
+    margin-bottom: 5%;
+}
+.premium {
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+.premium svg {
+    flex-shrink: 0; 
+    width: 75px; 
+    height: auto; 
+}
+
+.premium-content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.premium h3 {
+    margin: 0; 
+    font-size: 1.5rem; 
+}
+
+.premium p {
+    margin: 0; 
+    font-size: 1rem; 
+    color: #555; 
+}
+
+.warranty {
+    display: flex; 
+    gap: 1rem; 
+}
+
+.warranty svg {
+    flex-shrink: 0; 
+    width: 75px; 
+    height: auto; 
+}
+
+.warranty-content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.warranty h3 {
+    margin: 0; 
+    font-size: 1.5rem; 
+}
+
+.warranty p {
+    margin: 0; 
+    font-size: 1rem; 
+    color: #555; 
+}
+
+.timely {
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+.timely i {
+    flex-shrink: 0; 
+    font-size: 310%
+}
+
+.timely-content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.timely h3 {
+    margin: 0; 
+    font-size: 1.5rem; 
+}
+
+.timely p {
+    margin: 0; 
+    font-size: 1rem; 
+    color: #555; 
+}
+
+.eco {
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+.eco svg {
+    flex-shrink: 0; 
+    width: 75px; 
+    height: auto; 
+}
+
+.eco-content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.eco h3 {
+    margin: 0; 
+    font-size: 1.5rem; 
+}
+
+.eco p {
+    margin: 0; 
+    font-size: 1rem; 
+    color: #555; 
+}
+
+.rasi-array{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.rasi-array h1{
+    font-size: 350%;
+}
+.rasi-array p{
+    font-size: 150%;
+    color: rgb(80, 76, 76);
+}
+
+.printing-process{
+    display: flex;
+    margin-bottom: 5%;
+    font-size: 120%;
+}
+.textile img{
+    margin-left: 7%;
+width: 70%;
+height: 70%;
+border-radius: 10%;
+}
+.textile-txt{
+    margin-left: 11%;
+}
+
+.textile-txt svg{
+    border: none;
+    background-color: lightblue;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-top: -6%;
+    cursor: pointer;
+
+}
+.uv img{
+    width: 90%;
+    height: 70%;
+    border-radius: 10%;
+    margin-left: -12%;
+    }
+    .uv-txt{
+        margin-left: 5%;
+    }
+    .uv svg{
+        border: none;
+        background-color: lightblue;
+        border-radius: 50px;
+        margin-left: 25%;
+        margin-top: -6%;
+    cursor: pointer;
+    }
+
+    .color img{
+        margin-left: -10%;
+        width: 100%;
+        height: 70%;
+        border-radius: 10%;
+        }
+        .color-txt{
+            margin-left: 0%;
+        }
+        .color-txt svg{
+            border: none;
+            background-color: lightblue;
+            border-radius: 50px;
+            margin-left: 25%;
+            margin-top: -6%;
+        cursor: pointer;
+        }
+.client{
+    text-align: center;
+    font-size: 125%;
+}
+.client h2{
+    font-size: 285%;
+}
+.client-industry{
+    display: flex;
+    gap: 7%;
+    padding: 3%;
+}
+.aditya, .arvind, .raymond {
+    display: flex; 
+    gap: 5%;
+    box-shadow: 0px 6px 23px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    background-color: white; 
+    padding: 1% 4%;  
+    cursor: pointer;  
+}
+.aditya:hover{
+    border-color: gray;
+    background-color: rgba(0, 0, 0, 0.1);
+} 
+.arvind:hover{
+    border-color: gray;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.raymond:hover{
+    border-color: gray;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.aditya{
+    box-shadow: 0px 25px 23px rgba(0, 0, 0, 0.2); 
+
+}
+.aditya img, .arvind img, .raymond img {
+    width: 30%; 
+    height: 60%; 
+}
+
+.aditya h3, .arvind h3, .raymond h3 {
+    font-size: 150%; 
+    color: rgb(42, 41, 41); 
+}
+
+.aditya p, .arvind p, .raymond p {
+    font-size: 100%; 
+    color: rgb(90, 90, 90); 
+}
+.quality-printing{
+    gap: 10%;
+    display: flex;
+    font-size: 115%;
+    padding: 3%;
+}
+.couch img{
+    width: 75%;
+    height: 80%;
+    border-radius: 10%;
+}
+.high-quality-print h3{
+    font-size: 230%;
+    color: #3e3e3e;
+}
+.high-quality-print span{
+    margin-left: 8%;
+}
+.logos{
+    display: flex;
+    gap: 5%;
+    padding: 1.5%;   
+}
+.logos img{
+    width: 8%;
+    height: 5%;
+}
+.logos #myntra{
+    width: 30%;
+    margin-top: -5%;
+    margin-left: -5%;
+}
+
+.logos #puma{
+    width: 10%;
+    margin-left: -10%;
+    margin-top: -3%;
+}
+.logos #birla{
+    margin-top: -1.5%;
+}
+.logos #converse{
+    margin-top: -10%;
+    width: 13%;
+}
+.logos #markalar{
+    border: 1px solid;
+    margin-left: -2.5%;
+    padding: 1%;
+    margin-top: -1%;
+}
+.showcase{
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 4%;
+    
+}
+.showcase h3{
+    font-size: 260%;
+}
+.proudest-works{
+    display: flex;
+    gap: 3%;
+    padding: 2%;
+}
+.proudest-works img{
+    width: 40%;
+    border-radius: 8%;
+}
+.proudest-works #clothes{
+    width: 30%;
+    height: 600px;
+}
+.proudest-works #blue-pillow{
+    width: 30%;
+    height: 600px;
+}
+.proudest-works #girl{
+    width: 30%;
+    height: 600px;
+}
+.pexels img{
+    margin-left: 6%;
+    width: 85%;
+    border-radius: 5%;
+    margin-bottom: 8%;
+}
+.reach-out{
+    text-align: center; 
+    font-size: 115%; 
+}
+.reach-out h3{
+    font-size: 270%;
+}
+.reach-out p{
+    color: rgb(99, 94, 94);
+    margin-top: -1%;
+}
+.location img{
+    z-index: -1;
+    width: 98%;
+    height: 950px;
+}
+.contact-info{
+    position: absolute;
+    border: none;
+    border-radius: 5%;
+    padding: 4% 3%;
+    background-color: white;
+    width: 20%;
+    margin-top: -38%;
+    margin-left: 7%;
+    box-shadow: 0px 45px 33px rgba(0, 0, 0, 0.495);
+}
+
+
+@media only screen and (max-width: 430px) {
+    body {
+        font-size: 90%; 
+    }
+
+    .left-rasi-offers p {
+        width: 93.9%;
+        font-size: 100%;
+        padding: 3%;
+    }
+
+    .left-rasi-offers img {
+        width: 97%;
+        height: 40%;
+        margin-top: -5%;
+    }
+
+    .rasi-prints {
+        flex-direction: column;
+        gap: 8%; 
+        align-items: center; 
+        
+    }
+
+    .rasi-prints h1 {
+        font-size: 170%; 
+        margin-top: 5%;
+        margin-left: -53%;
+        
+    }
+
+    #home {
+        margin-left: 0%; 
+        margin-top: 5%;
+    }
+
+    .rasi-prints a {
+        font-size: 110%;
+        color: rgb(145, 227, 185); 
+    }
+
+    .rasi-prints svg {
+        margin-top: -50%; 
+        margin-left: 69%
+    }
+
+    .elevate {
+        margin-top: 50%;
+        font-size: 90%;
+        
+    }
+
+    .elevate p {
+        font-size: 75%;
+    }
+
+    .back {
+        margin-top: -3.5%;
+        width: 96%;
+        height: 50%; 
+    }
+        .screen-print {
+            font-size: 250%; 
+        }
+    
+        .rasi-screen-print {
+            flex-direction: column; 
+            gap: 5%; 
+            margin-bottom: 5%;
+        }
+    
+        .rasi-screen-print img {
+            width: 90%; 
+            height: auto; 
+            margin: 0 auto; 
+        }
+    
+        .rasi-timeless {
+            font-size: 120%; 
+        }
+    
+        .rasi-timeless h2 {
+            font-size: 200%; 
+        }
+    
+        #know, #contact {
+            font-size: 100%;
+            padding: 3% 6%; 
+            margin: 3% auto; 
+        }
+    
+        .offers {
+            flex-direction: column;
+            gap: 4%; 
+            padding: 5% 2%;
+        }
+    
+        .premium, .warranty, .timely, .eco {
+            flex-direction: column; 
+            align-items: center; 
+        }
+    
+        .premium svg, .warranty svg, .eco svg {
+            width: 50px; 
+            height: auto;
+        }
+        .rasi-array{
+            font-size: 60%;
+        }
+        .printing-process{
+            font-size: 60%;
+        }
+        .printing-process svg{
+            width: 20%;
+            height: 20%;
+            margin-top: 4%;
+        }
+        
+        .textile img{
+            height: 20%;
+        }
+        .uv img{
+            height: 20%;
+            width: 75%;
+        }
+        .color img{
+            height: 20%;
+            margin-left: -32%;
+        }
+        .color-txt{
+            margin-left: -32%;
+        }
+        .client{
+            font-size: 80%;
+        }
+        .client p{
+            font-size: 69%;
+        }
+
+        .client-industry {
+            flex-direction: column; 
+            gap: 3%;
+            padding: 2%;
+        }
+    
+        .aditya, .arvind, .raymond {
+            flex-direction: column; 
+            padding: 5%;
+            gap: 2%; 
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1); 
+        }
+    
+        .aditya img, .arvind img, .raymond img {
+            width: 100%; 
+            height: auto; 
+        }
+    
+        .aditya h3, .arvind h3, .raymond h3 {
+            font-size: 120%; 
+        }
+    
+        .aditya p, .arvind p, .raymond p {
+            font-size: 80%; 
+        }
+    }
+
+@media only screen and (min-width: 431px) and (max-width: 768px) {
+    
+    body{
+        font-size: 95%;
+    }
+    .left-rasi-offers p{
+        width: 100%;
+    }
+    .left-rasi-offers img{
+        width: 102.9%;
+        height: 44.8%;
+        margin-top: -2%;
+    }
+    .rasi-prints {
+        flex-direction: row;
+        gap: 2%;
+    }
+    .rasi-prints h1{
+        font-size: 140%;
+        text-align: left;
+        margin: 2% 1%;
+    }
+    #home{
+        margin-left: 17%;
+        margin-top: 2%;
+
+    }
+    .rasi-prints a{
+        margin-top: 2%;
+        font-size: 95%;
+
+    }
+    .back{
+        width: 100%;
+        height: 45%;
+        margin-top: -2.3%;
+    }
+    .rasi-prints svg{
+        margin-left: 10%;
+        margin-top: 1.5%;
+    }
+    .elevate{
+        font-size: 170%;
+    }
+     .screen-print {
+        font-size: 300%; 
+        width: 100%;
+    }
+
+    .rasi-screen-print {
+        gap: 8%; 
+        margin-bottom: 8%;
+    }
+
+    .rasi-screen-print img {
+        width: 58%; 
+        height: 105%;
+        margin: 0;
+    }
+
+    .rasi-timeless {
+        font-size: 95%; 
+    }
+
+    .rasi-timeless h2 {
+        font-size: 120%;
+    }
+
+    #know, #contact {
+        display: flex;
+        flex-direction: row;
+        font-size: 110%;
+        padding: 3% 5%; 
+    }
+
+    .offers {
+        gap: 1%; 
+        padding: 4% 2%;
+        width: 104.7%;
+    }
+
+    .premium, .warranty, .eco {
+        flex-direction: row;  
+        font-size: 5%;
+    }
+    .timely{
+        font-size: 30%;
+    }
+
+    .premium svg, .warranty svg, .eco svg {
+        width: 25px; 
+        height: auto;
+    }
+    .client{
+        margin-top: 2%;
+        margin-bottom: 6%;
+    }
+    .client h2{
+        text-align: center;
+    }
+    .client p{
+        font-size: 75%;
+    }
+    .printing-process img{
+        height: 30%;
+
+    }
+    .printing-process h2{
+        font-size: 135%;
+        
+    }
+    .printing-process svg{
+      margin-top: 5%;
+      width: 20%;
+      height: 20%;
+    }
+    .color svg{
+        width: 25%;
+        
+    }
+    .color img{
+        width: 130%;
+    
+    }
+    .color-txt p{
+        margin-left: 6%;
+    }
+
+    .client-industry {
+        flex-direction: column; 
+        gap: 5%; 
+        padding: 3%; 
+    }
+
+    .aditya, .arvind, .raymond {
+        flex-direction: column; 
+        padding: 3%; 
+        gap: 3%;
+    }
+
+    .aditya img, .arvind img, .raymond img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .aditya h3, .arvind h3, .raymond h3 {
+        font-size: 130%; 
+    }
+    .aditya p, .arvind p, .raymond p {
+        font-size: 90%; 
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    body{
+        font-size: 95%;
+    }
+
+.left-rasi-offers p{
+    font-size: 110%;
+    width: 95%;
+    padding: 2.5%;
+}
+.left-rasi-offers img{
+    width: 101%;
+    height: 43.9%;
+    margin-top: -2%;
+}
+.rasi-prints {
+    flex-direction: row;
+    gap: 6%;
+}
+.rasi-prints h1{
+    font-size: 160%;
+    text-align: left;
+    margin: 1.5% 1%;
+}
+#home{
+    margin-left: 7%;
+    margin-top: 2%;
+
+}
+.rasi-prints a{
+    margin-top: 2%;
+    font-size: 110%;
+
+}
+.back{
+    width: 98.3%;
+    height: 44%;
+    margin-top: -2.3%;
+}
+.rasi-prints svg{
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+.elevate{
+    font-size: 150%;
+    margin-left: -8%;
+}
+.elevate h1{
+    font-size: 280%;
+}
+.elevate p{
+    font-size: 100%;
+}
+.elevate button{
+    font-size: 100%;
+
+}
+.screen-print {
+    font-size: 300%; 
+    width: 109%;
+}
+
+.rasi-screen-print {
+    gap: 8%; 
+    margin-bottom: 8%;
+}
+
+.rasi-screen-print img {
+    width: 58%; 
+    height: 105%;
+    margin: 0;
+}
+
+.rasi-timeless {
+    font-size: 122%; 
+}
+
+.rasi-timeless h2 {
+    font-size: 120%;
+}
+
+#know, #contact {
+    display: flex;
+    flex-direction: row;
+    font-size: 110%;
+    padding: 3% 5%; 
+}
+
+.offers {
+    gap: 1%; 
+    padding: 4% 2%;
+    width: 96%;
+}
+
+.premium, .warranty, .eco {
+    flex-direction: row;  
+    font-size: 10%;
+}
+.timely{
+    font-size: 40%;
+}
+
+.premium svg, .warranty svg, .eco svg {
+    width: 25px; 
+    height: auto;
+}
+.client{
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.client h2{
+    text-align: center;
+}
+.client p{
+    font-size: 75%;
+}
+.printing-process img{
+    height: 30%;
+
+}
+.printing-process h2{
+    font-size: 135%;
+    
+}
+.printing-process svg{
+  width: 20%;
+  height: 20%;
+}
+.textile svg{
+    display: block;
+}
+.color svg{
+    width: 25%;
+    
+}
+.color img{
+    width: 100%;
+
+}
+.color-txt p{
+    margin-left: 6%;
+}
+
+
+}
