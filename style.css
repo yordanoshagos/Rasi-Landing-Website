@@ -9,7 +9,6 @@
 body{
     font-family: poppins;
 }
-
 .left-rasi-offers p{
     font-size: 110%;
     border: none;
@@ -17,18 +16,15 @@ body{
     padding: 1%;
     text-align: center;
     color: white;
-    background-color: rgb(90, 161, 101);
-
+    background-color: #88E788;
 }
 .left-rasi-offers img{
     width: 99.5%;
     height: 99%;
     margin-top: -1%;
     position: absolute;
-    z-index: -1;
-    
+    z-index: -1;   
 }
-
 .rasi-prints{
     display: flex;
     color: white;
@@ -53,7 +49,7 @@ body{
 }
 .rasi-prints a{
     font-size: 140%;
-  text-decoration: none;
+    text-decoration: none;
     color: white;
     cursor: pointer;
 }
@@ -75,7 +71,6 @@ body{
     font-size: 60%;
     margin-bottom: 6%;
 }
-
 .elevate button{
     font-family: poppins;
     font-size: 55%;
@@ -84,7 +79,7 @@ body{
     border: none;
     color: white;
     background-color: rgba(188, 175, 175, 0.668);
-cursor: pointer;
+    cursor: pointer;
 }
 .elevate button:hover{
     color: black;
@@ -99,7 +94,6 @@ cursor: pointer;
     font-size: 350%;
     font-family: poppins_l;
     color: rgb(42, 41, 41);
-
 }
 .rasi-screen-print{
     display: flex;
@@ -113,12 +107,16 @@ cursor: pointer;
     margin-left: 1%;
     box-shadow: 0px 15px 18px -5px rgb(55, 53, 53); 
 }
-
 .rasi-timeless{
     font-size: 145%;
 }
 .rasi-timeless h2{
     font-size: 260%;
+}
+.rasi-timeless #screen{
+    font-size: 120%;
+    color: #88E788;
+
 }
 #know{
     margin-left: 3%;
@@ -128,17 +126,15 @@ cursor: pointer;
     border-radius: 100px;
     border: none;
     color: white;
-    background-color: rgb(90, 161, 101);
+    background-color: #88E788;
     margin-top: 3%;
     cursor: pointer;
-
 }
 #know:hover{
     background-color: rgb(218, 240, 231);
     color: black;
     border: 1px solid;
 }
-
 #contact{
     font-family: poppins;
     font-size: 115%;
@@ -151,11 +147,10 @@ cursor: pointer;
     cursor: pointer;
 }
 #contact:hover{
-    background-color: rgb(90, 161, 101);
+    background-color: #88E788;
     color: white;
     border: none;
 }
-
 .offers{
     display: flex;
     gap: 9.5%;
@@ -169,19 +164,16 @@ cursor: pointer;
     align-items: center; 
     gap: 1rem; 
 }
-
 .premium svg {
     flex-shrink: 0; 
     width: 75px; 
     height: auto; 
 }
-
 .premium-content {
     display: flex;
     flex-direction: column; 
     justify-content: center; 
 }
-
 .premium h3 {
     margin: 0; 
     font-size: 1.5rem; 
@@ -203,81 +195,67 @@ cursor: pointer;
     width: 75px; 
     height: auto; 
 }
-
 .warranty-content {
     display: flex;
     flex-direction: column; 
     justify-content: center; 
 }
-
 .warranty h3 {
     margin: 0; 
     font-size: 1.5rem; 
 }
-
 .warranty p {
     margin: 0; 
     font-size: 1rem; 
     color: #555; 
 }
-
 .timely {
     display: flex; 
     align-items: center; 
     gap: 1rem; 
 }
-
 .timely i {
     flex-shrink: 0; 
     font-size: 310%
 }
-
 .timely-content {
     display: flex;
     flex-direction: column; 
     justify-content: center; 
 }
-
 .timely h3 {
     margin: 0; 
     font-size: 1.5rem; 
 }
-
 .timely p {
     margin: 0; 
     font-size: 1rem; 
     color: #555; 
 }
-
 .eco {
     display: flex; 
     align-items: center; 
     gap: 1rem; 
 }
-
 .eco svg {
     flex-shrink: 0; 
     width: 75px; 
     height: auto; 
 }
-
 .eco-content {
     display: flex;
     flex-direction: column; 
     justify-content: center; 
 }
-
 .eco h3 {
     margin: 0; 
     font-size: 1.5rem; 
 }
-
 .eco p {
     margin: 0; 
     font-size: 1rem; 
     color: #555; 
 }
-
 .rasi-array{
     text-align: center;
     margin-bottom: 3%;
@@ -289,7 +267,6 @@ cursor: pointer;
     font-size: 150%;
     color: rgb(80, 76, 76);
 }
-
 .printing-process{
     display: flex;
     margin-bottom: 5%;
@@ -304,7 +281,6 @@ border-radius: 10%;
 .textile-txt{
     margin-left: 11%;
 }
-
 .textile-txt svg{
     border: none;
     background-color: lightblue;
@@ -312,7 +288,6 @@ border-radius: 10%;
     margin-left: 25%;
     margin-top: -6%;
     cursor: pointer;
-
 }
 .uv img{
     width: 90%;
@@ -390,12 +365,10 @@ border-radius: 10%;
     width: 30%; 
     height: 60%; 
 }
-
 .aditya h3, .arvind h3, .raymond h3 {
     font-size: 150%; 
     color: rgb(42, 41, 41); 
 }
-
 .aditya p, .arvind p, .raymond p {
     font-size: 100%; 
     color: rgb(90, 90, 90); 
@@ -432,7 +405,6 @@ border-radius: 10%;
     margin-top: -5%;
     margin-left: -5%;
 }
-
 .logos #puma{
     width: 10%;
     margin-left: -10%;
@@ -454,8 +426,7 @@ border-radius: 10%;
 .showcase{
     text-align: center;
     font-size: 110%;
-    margin-bottom: 4%;
-    
+    margin-bottom: 4%;  
 }
 .showcase h3{
     font-size: 260%;
@@ -501,7 +472,8 @@ border-radius: 10%;
 .location img{
     z-index: -1;
     width: 98%;
-    height: 950px;
+    height: 1000px;
+    margin-bottom: 13%;
 }
 .contact-info{
     position: absolute;
@@ -510,10 +482,59 @@ border-radius: 10%;
     padding: 4% 3%;
     background-color: white;
     width: 20%;
-    margin-top: -38%;
+    margin-top: -57%;
     margin-left: 7%;
     box-shadow: 0px 45px 33px rgba(0, 0, 0, 0.495);
 }
+.contact-info svg{
+    cursor: pointer;
+}
+.contact-info h3{
+    font-size: 190%;
+}
+.address h4{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.footer-elements{
+    display: flex;
+    border: none;
+    background-color: #3e3e3e;
+    color: white;
+    gap: 7%;
+    padding: 3.5% 7%;
+}
+.footer-elements img{
+    width: 13%;
+    z-index: 1;
+    height: 180px;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+.social-medias{
+    line-height:18px;
+    cursor: pointer;
+
+}
+.sites a{
+    text-decoration: none;
+    color: white;
+
+}
+.office{
+    display: flex;
+ gap: 40px;
+ cursor: pointer;
+}
+hr{
+    margin-top: -5%;
+    color: rgb(194, 189, 189);
+}
+#copyright{
+    color: white;
+    text-align: center;
+}
+
 
 
 @media only screen and (max-width: 430px) {
@@ -522,7 +543,7 @@ border-radius: 10%;
     }
 
     .left-rasi-offers p {
-        width: 93.9%;
+        width: 92%;
         font-size: 100%;
         padding: 3%;
     }
@@ -574,11 +595,13 @@ border-radius: 10%;
 
     .back {
         margin-top: -3.5%;
-        width: 96%;
-        height: 50%; 
+        width: 94%;
+        height: 50%;
+        margin-left: -1.5%; 
     }
         .screen-print {
-            font-size: 250%; 
+            font-size: 200%; 
+            width: 93%;
         }
     
         .rasi-screen-print {
@@ -588,22 +611,24 @@ border-radius: 10%;
         }
     
         .rasi-screen-print img {
-            width: 90%; 
+            width: 85%; 
             height: auto; 
             margin: 0 auto; 
+            margin-bottom: 4%;
         }
     
         .rasi-timeless {
-            font-size: 120%; 
+            font-size: 60%;
+            text-align: center; 
         }
     
         .rasi-timeless h2 {
-            font-size: 200%; 
+            font-size: 190%; 
         }
     
         #know, #contact {
-            font-size: 100%;
-            padding: 3% 6%; 
+            font-size: 150%;
+            padding: 4% 6%; 
             margin: 3% auto; 
         }
     
@@ -611,6 +636,7 @@ border-radius: 10%;
             flex-direction: column;
             gap: 4%; 
             padding: 5% 2%;
+            width: 93%;
         }
     
         .premium, .warranty, .timely, .eco {
@@ -623,63 +649,159 @@ border-radius: 10%;
             height: auto;
         }
         .rasi-array{
-            font-size: 60%;
+            font-size: 40%;
         }
         .printing-process{
-            font-size: 60%;
+            font-size: 30%;
         }
         .printing-process svg{
-            width: 20%;
-            height: 20%;
+            width: 10%;
+            height: 10%;
             margin-top: 4%;
+
         }
         
         .textile img{
-            height: 20%;
+            height: 100px;
         }
         .uv img{
-            height: 20%;
+            height: 100px;
             width: 75%;
         }
         .color img{
-            height: 20%;
-            margin-left: -32%;
+            height: 100px;
         }
         .color-txt{
-            margin-left: -32%;
+            
+            font-size: 40%;
+            
         }
         .client{
             font-size: 80%;
         }
         .client p{
-            font-size: 69%;
+            font-size: 59%;
+            margin-bottom: 3%;
         }
 
         .client-industry {
-            flex-direction: column; 
+            display: flex;
+            flex-direction: row; 
             gap: 3%;
-            padding: 2%;
+            /* padding: 2%; */
         }
     
         .aditya, .arvind, .raymond {
-            flex-direction: column; 
-            padding: 5%;
+            
+            flex-direction: row; 
+            /* padding: 5%; */
             gap: 2%; 
             box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1); 
         }
     
         .aditya img, .arvind img, .raymond img {
-            width: 100%; 
-            height: auto; 
+            width: 49%; 
+            height: 40px; 
         }
     
         .aditya h3, .arvind h3, .raymond h3 {
-            font-size: 120%; 
+            font-size: 80%; 
+            margin-top: -5%;
         }
     
         .aditya p, .arvind p, .raymond p {
-            font-size: 80%; 
+            font-size: 40%;
+            margin-top: -5%; 
         }
+        .quality-printing{
+            font-size: 30%;
+            gap: 2%;
+            padding: 0%;
+            margin-bottom: 7%;
+        }
+        .quality-printing svg{
+            width: 10%;
+            height: 10%;
+        }
+        .couch img{
+            height: 140px;
+            width: 120%;
+            margin-left: -39%;
+            margin-top: -1%;
+        }
+        .logos{
+            gap: 4%;
+        }
+        .showcase{
+            font-size: 85%;
+        }
+        .showcase p{
+            font-size: 70%;
+        }
+        .proudest-works img{
+            height: 50px;
+        }
+        .proudest-works #clothes {
+  width: 30%;  
+  height: 160px; 
+}
+
+.proudest-works #blue-pillow {
+  width: 30%; 
+  height: 160px;
+}
+
+.proudest-works #girl {
+  width: 30%;  
+  height: 160px;
+}
+.reach-out{
+    font-size: 45%;
+}
+.location img{
+    width: 93%;
+    height: 400px;
+}
+.contact-info {
+    width: 75%; 
+    height: 300px;
+    margin-top: -103%;
+    margin-left: 10%;
+    padding: 2%;
+    line-height: 4%;
+}
+
+.contact-info h3 {
+    font-size: 130%; 
+}
+
+.address h4 {
+    margin-left: 10%;
+}
+hr{
+    width: 92%;
+    margin-left: 0.5%;
+}
+
+.footer-elements {
+    padding: 4% 1%;
+    width: 92%; 
+    font-size: 50%;
+}
+
+.footer-elements img {
+    display: none;
+}
+
+.office {
+    gap: 5px;
+}
+#copyright{
+    font-size: 40%;
+    margin-top: -1%;
+}
+
+
     }
 
 @media only screen and (min-width: 431px) and (max-width: 768px) {
@@ -688,10 +810,10 @@ border-radius: 10%;
         font-size: 95%;
     }
     .left-rasi-offers p{
-        width: 100%;
+        width: 108%;
     }
     .left-rasi-offers img{
-        width: 102.9%;
+        width: 109.9%;
         height: 44.8%;
         margin-top: -2%;
     }
@@ -715,7 +837,7 @@ border-radius: 10%;
 
     }
     .back{
-        width: 100%;
+        width: 107.8%;
         height: 45%;
         margin-top: -2.3%;
     }
@@ -728,7 +850,7 @@ border-radius: 10%;
     }
      .screen-print {
         font-size: 300%; 
-        width: 100%;
+        width: 107%;
     }
 
     .rasi-screen-print {
@@ -743,7 +865,7 @@ border-radius: 10%;
     }
 
     .rasi-timeless {
-        font-size: 95%; 
+        font-size: 99%; 
     }
 
     .rasi-timeless h2 {
@@ -759,8 +881,8 @@ border-radius: 10%;
 
     .offers {
         gap: 1%; 
-        padding: 4% 2%;
-        width: 104.7%;
+        padding: 4% 1.5%;
+        width: 104.5%;
     }
 
     .premium, .warranty, .eco {
@@ -811,20 +933,20 @@ border-radius: 10%;
     }
 
     .client-industry {
-        flex-direction: column; 
+        flex-direction: row; 
         gap: 5%; 
         padding: 3%; 
     }
 
     .aditya, .arvind, .raymond {
-        flex-direction: column; 
+        flex-direction: row; 
         padding: 3%; 
         gap: 3%;
     }
 
     .aditya img, .arvind img, .raymond img {
-        width: 100%; 
-        height: auto; 
+        width: 50%; 
+        height: 100px; 
     }
 
     .aditya h3, .arvind h3, .raymond h3 {
@@ -833,7 +955,41 @@ border-radius: 10%;
     .aditya p, .arvind p, .raymond p {
         font-size: 90%; 
     }
-
+.quality-printing img{
+    width: 150%;
+    height: 500px;
+    margin-left: -10%;
+}
+.contact-info{
+    width: 40%;
+    margin-top: -100%;
+    
+}
+.proudest-works{
+    margin-left: 3%;
+}
+.proudest-works #clothes {
+    width: 30%;  
+    height: 360px; 
+  }
+  
+  .proudest-works #blue-pillow {
+    width: 30%; 
+    height: 360px;
+  }
+  
+  .proudest-works #girl {
+    width: 30%;
+    height: 360px;  
+   
+}
+.location img{
+    width: 105%;
+}
+.footer-elements{
+    width: 96.5%;
+    font-size: 60%;
+}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -896,7 +1052,7 @@ border-radius: 10%;
 }
 .screen-print {
     font-size: 300%; 
-    width: 109%;
+    width: 97%;
 }
 
 .rasi-screen-print {
@@ -905,13 +1061,13 @@ border-radius: 10%;
 }
 
 .rasi-screen-print img {
-    width: 58%; 
-    height: 105%;
+    width: 55%; 
+    height: 100%;
     margin: 0;
 }
 
 .rasi-timeless {
-    font-size: 122%; 
+    font-size: 119%; 
 }
 
 .rasi-timeless h2 {
@@ -928,7 +1084,7 @@ border-radius: 10%;
 .offers {
     gap: 1%; 
     padding: 4% 2%;
-    width: 96%;
+    width: 95%;
 }
 
 .premium, .warranty, .eco {
@@ -948,6 +1104,7 @@ border-radius: 10%;
     margin-bottom: 6%;
 }
 .client h2{
+    font-size: 250%;
     text-align: center;
 }
 .client p{
@@ -964,6 +1121,7 @@ border-radius: 10%;
 .printing-process svg{
   width: 20%;
   height: 20%;
+  margin-top: 2%;
 }
 .textile svg{
     display: block;
@@ -979,6 +1137,57 @@ border-radius: 10%;
 .color-txt p{
     margin-left: 6%;
 }
+.client-industry {
+    display: flex;
+    flex-direction: row; 
+    gap: 3%;
+    /* padding: 2%; */
+}
 
+.aditya, .arvind, .raymond {
+    
+    flex-direction: row; 
+    /* padding: 5%; */
+    gap: 2%; 
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1); 
+}
 
+.aditya img, .arvind img, .raymond img {
+    width:65%; 
+    height: 80px; 
+}
+
+.aditya h3, .arvind h3, .raymond h3 {
+    font-size: 80%; 
+    margin-top: -5%;
+}
+
+.aditya p, .arvind p, .raymond p {
+    font-size: 70%;
+    margin-top: -5%; 
+}
+
+.logos{
+    gap: 4%;
+}
+
+.reach-out{
+    font-size: 90%;
+}
+.contact-info{
+    height: 450px;
+    width: 35%;
+    margin-top: -90%;
+}
+.location img{
+    width: 95%;
+
+}
+.footer-elements{
+    width: 85%;
+    font-size: 60%;
+}
+hr{
+    width: 90%;
+}
 }
